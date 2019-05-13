@@ -40,7 +40,6 @@ public class EnemySpawner : MonoBehaviour
                 "// nextSpawnDelay = " + increaseDifficulty.nextSpawnDelay);
         }
     }
-    //hoi
     /// <summary>
     /// This coroutine will generate a random number between 1 and 3. This random number will be used in the following switch case 
     /// to determine the spawn position of the enemy and to actually spawn the enemy accordingly. This coroutine will loop until the player has died.
